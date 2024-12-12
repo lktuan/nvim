@@ -2,22 +2,22 @@
 
 ## Installation
 
-### Install Neovim
+### 1. Install Neovim
 
 Please install latest
 ['stable'](https://github.com/neovim/neovim/releases/tag/stable) and latest
 ['nightly'](https://github.com/neovim/neovim/releases/tag/nightly) of Neovim.
 
-### Install External Dependencies
+### 2. Install External Dependencies
 
-### Basic External Requirements:
+#### 2.1 Basic External Requirements:
 
 - Basic utils: `git`, `make`, `unzip`, C Compiler (`gcc`);
 - A [Nerd Font](https://www.nerdfonts.com/): optional, provides various icons;
   - if you have it set `vim.g.have_nerd_font` in `init.lua` to true;
 - Language Setup: `Python`, `R`, `Julia`, etc.
 
-### Install Recipes on Windows:
+#### 2.1 Install Recipes on Windows:
 
 Below you can find OS specific install instructions for Neovim and dependencies.
 
@@ -62,7 +62,7 @@ sudo apt install make gcc ripgrep unzip git xclip neovim
 ```
 </details>
 
-### Install Kickstart
+### 3 Set up this config
 
 Neovim's configurations are located under the following paths:
 
@@ -71,7 +71,7 @@ Neovim's configurations are located under the following paths:
 | Windows (cmd)| `%userprofile%\AppData\Local\nvim\` |
 | Windows (powershell)| `$env:USERPROFILE\AppData\Local\nvim\` |
 
-#### Clone this repo
+#### 3.1 Clone this repo
 
 If you're using `cmd.exe`:
 
@@ -85,7 +85,7 @@ If you're using `powershell.exe`
 git clone https://github.com/nvim-lua/kickstart.nvim.git $env:USERPROFILE\AppData\Local\nvim\
 ```
 
-### Post Installation
+### 4.1 Post Installation
 
 Start Neovim
 
@@ -100,6 +100,6 @@ Read through the `init.lua` file in your configuration folder for more
 information about extending and exploring Neovim. That also includes
 examples of adding popularly requested plugins.
 
-### Getting Started
+### 5. Getting Started
 
 [The Only Video You Need to Get Started with Neovim](https://youtu.be/m8C0Cq9Uv9o)
